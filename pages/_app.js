@@ -4,7 +4,7 @@ import '../styles/style.css'
 
 import Footer from './components/footer'
 import Nav from './components/nav'
-import Head from 'next/Head'
+import Head from 'next/head'
 
 function MyApp ({ Component, pageProps }) {
   const [nav, setNav] = useState(false)
