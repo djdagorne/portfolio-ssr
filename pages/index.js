@@ -1,65 +1,170 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
-export default function Home() {
+import Link from 'next/Link'
+
+const Home = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+    <>
+      {/* <!-- INTRODUCTION SECTION --> */}
+      <section className="intro hero" id="hero">
+        <h1 className="section__title section__title--intro">
+          Hi, I am
+          <strong>
+            Dexter <br className="line-break-size" />
+            Dagorne.
+          </strong>
         </h1>
+        <p className="section__subtitle section__subtitle--intro">full stack dev</p>
+        <img
+          src="dev-dex-01.jpg"
+          alt="a picture of Dexter's smiling face"
+          className="intro__img"
+        />
+      </section>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
+      {/* <!-- MY SERVICES --> */}
+      <section className="my-services" id="services">
+        <h2 className="section__title section__title--services">What I Do</h2>
+        <div className="services">
+          <div className="service">
+            <h3>Front End</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+          You only get one first impression. That's why your site has to look
+          beautiful and play nice with screen readers. Now you got to make it
+          SEO friendly. You can't forget the accessibility functions now
+          either... When it comes to front end development I'm capable of
+          making sure you're site feels
+              <i>right</i>, whether you're on the phone, desktop, or a screen
+          reader.
             </p>
-          </a>
+          </div>
+          <div className="service">
+            <h3>Back End</h3>
+            <p>
+          When it comes to back-end development, you expect your systems to be
+          built to scale up and to perform. With my knowledge of algorithms
+          and data structures, dedication to readable and well documented code
+          and the ability to commit to patterns and reusable functions, I look
+          to build code that is clean, bloat free and made to work.
+            </p>
+          </div>
+          <div className="service">
+            <h3>Testing, Security</h3>
+            <p>
+          Whether its PropTyping, Jest, Supertest, Enzyme or Mocha, I've got
+          the experience the appreciation for code that only has to be
+          deployed once.
+            </p>
+            <p>
+          I've also gained experience with JSON Web Tokens, secured endpoints,
+          session expiry, hashing and protecting user data and more, so your
+          users won't have to worry about leaving your SaaS running on a
+          computer unattended.
+            </p>
+          </div>
         </div>
-      </main>
+        <a href="#work" className="btn">My Work</a>
+      </section>
+      {/* <!-- ABOUT ME --> */}
+      <section className="about-me" id="about">
+        <h2 className="section__title section__title--about">Who I Am</h2>
+        <p className="section__subtitle section__subtitle--about">
+      web dev & designer based out of Toronto
+        </p>
+        <div className="about-me__body">
+          <p>
+        A lifelong tinkerer and artist. I grew up making my own computers, and
+        generally hacking out fun and silly stuff online.
+          </p>
+          <p>
+        My first experience coding was ActionScript, trying to recreate the
+        flash games I'd play on MiniClip or AddictingGames. While once the art
+        and animation drew me in, it's coding that kept its allure after all
+        these years.
+          </p>
+          <p>
+        An experienced and seasoned leader, I've worked around Ontario
+        training teams and franchisees in running kitchens, making schedules,
+        and processing multiple deliveries a week. Though I no longer see my
+        future in it, I'm proud of my promotions and achievements I've made in
+        the hospitality industry. Now I can make great food after a long day
+        of making great code, how could any restaurant compete with that
+        lifestyle?
+          </p>
+        </div>
+        <img
+          src="dev-dex-coffee.jpg"
+          alt="Sipping a fine americano in VanCity"
+          className="about-me__img"
+        />
+      </section>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+      {/* <!-- MY WORK --> */}
+      <section className="my-work" id="work">
+        <h2 className="section__title section__title--work">My Work</h2>
+        <p className="section__subtitle section__subtitle--work">
+      A selection of some of my work.
+        </p>
+        <div className="portfolio">
+          <Link
+            href="tennit"
+          >
+            <a
+              className="portfolio__item"
+              title="to Dexter's Tennit dating application description page"
+            >
+              <img
+                src="tennit-capture.png"
+                alt="tennit mobile screen cap"
+                className="portfolio__img"
+              />
+            </a>
+          </Link>
+          <Link
+            href="bootstrap"
+          >
+            <a
+              className="portfolio__item"
+              title="to Dexter's Bootstrap Sandbox Demo description page"
+            >
+              <img
+                src="bootstrap-capture.png"
+                alt="bootstrap-playground mobile screen cap"
+                className="portfolio__img"
+              />
+            </a>
+          </Link>
+          <Link
+            href="concertfinder"
+          >
+            <a
+              className="portfolio__item"
+              title="to Dexter's Concertfinder App description page"
+            >
+              <img
+                src="concertfinder-capture.png"
+                alt="concertfinder mobile screen cap"
+                className="portfolio__img"
+              />
+            </a>
+          </Link>
+          <Link
+            href="trivia"
+          >
+            <a
+              className="portfolio__item"
+              title="to Dexter's trivia app  description page"
+            >
+              <img
+                src="trivia-capture.png"
+                alt="trivia mobile screen cap"
+                className="portfolio__img"
+              />
+            </a>
+          </Link>
+        </div>
+      </section>
+    </>
   )
 }
+
+export default Home
