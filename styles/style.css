@@ -278,10 +278,12 @@ header {
   display: grid;
   margin: 0 auto; /* 0 auto ||  25vh auto 25vh auto */
   grid-column-gap: .5em;
-  grid-template-columns: 6fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 60px;
   grid-template-areas:
-    "title subtitle"
-    "img subtitle";
+    "title"
+    "img "
+    "subtitle";
   padding-top: 3em;
   z-index: 1;
 }
@@ -293,8 +295,8 @@ header {
   grid-column-gap: .5em;
   grid-template-areas:
     "title"
-    "subtitle"
-    "img ";
+    "img"
+    "subtitle";
   padding-top: 3em;
   z-index: 1;
 }
@@ -313,6 +315,8 @@ header {
     hue-rotate(15deg) saturate(0.9);
   box-shadow: var(--bs);
   grid-area: img;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .section__title--intro{
@@ -321,12 +325,11 @@ header {
 
 .section__subtitle--intro {
   position: relative;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
   display: inline-block;
   text-align: right;
-  margin-left: 5px;
-  width: calc(100% - 1em);
+  width: calc(100% + 4em);
+  right: 2em;
+  padding-right: 2em;
   line-height: normal;
   grid-area: subtitle;
 }
@@ -343,12 +346,6 @@ header {
   display: none;
 }
   
-@media (min-width: 321px) {
-  .section__subtitle--intro {
-    left: .5em;
-    width: calc(100% - 1em);
-  }
-}
 
 @media (min-width: 576px) {
   .intro {
@@ -362,6 +359,8 @@ header {
     grid-template-columns: min-content max-content;
     padding-top: 3em;
     z-index: 1;
+    top: 0;
+    margin-top: 10vh;
   }
   .intro-item {
     display: grid;
@@ -375,10 +374,6 @@ header {
     padding-top: 3em;
     padding-right: 0;
     z-index: 1;
-  }
-  .hero {
-    top: 0;
-    margin-top: 10vh;
   }
 
   .section__subtitle--intro {
@@ -516,6 +511,8 @@ header {
 
 .about-me__img {
   box-shadow: var(--bs);
+  margin: 0 auto;
+  max-height: 550px;
 }
 
 .about-me img {
@@ -705,6 +702,7 @@ header {
   max-width: 300px;
   max-height: 300px;
   overflow: hidden;
+  margin: auto;
 }
 
 .portfolio-item-individual__img,
