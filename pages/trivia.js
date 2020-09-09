@@ -13,7 +13,7 @@ const Trivia = () => {
         </p>
         <div className="portfolio-item-individual__item">
           <img
-            src="../trivia-capture.png"
+            src="../trivia-capture.webp"
             alt="scrolling screen capture"
             className="portfolio-item-individual__img"
           />
@@ -36,7 +36,7 @@ const Trivia = () => {
         kind of tools I had at my fingertips.
         </p>
         <img
-          src="../trivia-capture-lg.png"
+          src="../trivia-capture-lg.webp"
           alt="larger screen capture"
           className="portfolio-item-individual__img-lg"
         />

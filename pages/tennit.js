@@ -11,7 +11,7 @@ const Tennit = () => {
         </p>
         <div className="portfolio-item-individual__item">
           <img
-            src="../tennit-capture.png"
+            src="../tennit-capture.webp"
             alt="scrolling screen capture"
             className="portfolio-item-individual__img"
           />
@@ -43,7 +43,7 @@ const Tennit = () => {
         I make it <i>Dexter's</i> online dating app? Make it funny is how!
         </p>
         <img
-          src="../tennit-capture-lg.png"
+          src="../tennit-capture-lg.webp"
           alt="larger screen capture"
           className="portfolio-item-individual__img-lg"
         />

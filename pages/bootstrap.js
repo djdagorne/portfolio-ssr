@@ -12,7 +12,7 @@ const Bootstrap = () => {
         </p>
         <div className="portfolio-item-individual__item">
           <img
-            src="../bootstrap-capture.png"
+            src="../bootstrap-capture.webp"
             alt="scrolling screen capture"
             className="portfolio-item-individual__img"
           />
@@ -35,7 +35,7 @@ const Bootstrap = () => {
         with industry standard practices in media queries and design.
         </p>
         <img
-          src="../bootstrap-capture-lg.png"
+          src="../bootstrap-capture-lg.webp"
           alt="larger screen capture"
           className="portfolio-item-individual__img-lg"
         />

@@ -2,7 +2,7 @@ const Nav = ({ handleNav }) => {
   return (
     <header id="home">
       <a href="#home" className="logo">
-        <img src="dexter.png" alt="dexter's logo" />
+        <img src="dexter.webp" alt="dexter's logo" />
       </a>
       <button className="nav-toggle" aria-label="toggle navigation" onClick={handleNav}>
         <span className="hamburger"></span>

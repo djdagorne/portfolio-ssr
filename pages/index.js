@@ -14,7 +14,7 @@ const Home = () => {
         </h1>
         <p className="section__subtitle section__subtitle--intro">full stack dev</p>
         <img
-          src="dev-dex-01.jpg"
+          src="dev-dex-01.webp"
           alt="a picture of Dexter's smiling face"
           className="intro__img"
         />
@@ -89,7 +89,7 @@ const Home = () => {
           </p>
         </div>
         <img
-          src="dev-dex-coffee.jpg"
+          src="dev-dex-coffee.webp"
           alt="Sipping a fine americano in VanCity"
           className="about-me__img"
         />
@@ -107,7 +107,7 @@ const Home = () => {
               title="to Dexter's Tennit dating application description page"
             >
               <img
-                src="tennit-capture.png"
+                src="tennit-capture.webp"
                 alt="tennit mobile screen cap"
                 className="portfolio__img"
               />
@@ -119,7 +119,7 @@ const Home = () => {
               title="to Dexter's Bootstrap Sandbox Demo description page"
             >
               <img
-                src="bootstrap-capture.png"
+                src="bootstrap-capture.webp"
                 alt="bootstrap-playground mobile screen cap"
                 className="portfolio__img"
               />
@@ -131,7 +131,7 @@ const Home = () => {
               title="to Dexter's Concertfinder App description page"
             >
               <img
-                src="concertfinder-capture.png"
+                src="concertfinder-capture.webp"
                 alt="concertfinder mobile screen cap"
                 className="portfolio__img"
               />
@@ -143,7 +143,7 @@ const Home = () => {
               title="to Dexter's trivia app  description page"
             >
               <img
-                src="trivia-capture.png"
+                src="trivia-capture.webp"
                 alt="trivia mobile screen cap"
                 className="portfolio__img"
               />

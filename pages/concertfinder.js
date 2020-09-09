@@ -11,7 +11,7 @@ const Concertfinder = () => {
         </p>
         <div className="portfolio-item-individual__item">
           <img
-            src="../concertfinder-capture.png"
+            src="../concertfinder-capture.webp"
             alt="scrolling demo pic"
             className="portfolio-item-individual__img"
           />
@@ -33,7 +33,7 @@ const Concertfinder = () => {
         upcoming concerts on Ticketmaster.
         </p>
         <img
-          src="../concertfinder-capture-lg.png"
+          src="../concertfinder-capture-lg.webp"
           alt="larger screen capture"
           className="portfolio-item-individual__img-lg"
         />

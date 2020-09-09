@@ -438,7 +438,7 @@ header {
 .my-services {
   position: relative;
   background-color: var(--clr-dark);
-  background-image: url(../public/my-computer.jpg);
+  background-image: url(../public/my-computer.webp);
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
