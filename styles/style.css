@@ -399,6 +399,7 @@ header {
   .intro__img {
     grid-area: img;
     min-width: 250px;
+    min-height: 250px;
     position: relative;
     right: 50px;
   }
@@ -535,16 +536,12 @@ header {
     grid-area: title;
   }
   .section__subtitle--about {
-    /* 1/-1 makes it go across the entire row AKA all columns */
     grid-column: 1 / -1;
     grid-row: 2;
-    /* making sure text doesn't run under the img */
     position: relative;
     left: -1em;
     width: calc(100% + 2em);
     padding-left: 1em;
-    /* the right padding sets the images 
-    width as the rightpadding of the subtitle element */
     padding-right: calc(200px + 4em);
   }
 

@@ -12,14 +12,14 @@ const Footer = () => {
             href="https://github.com/djdagorne"
             className="social-list__link"
             title="to Dexter's Github"
-          ><i className="fab fa-github"></i></a>
+          ><i className="fab fa-github" aria-hidden></i></a>
         </li>
         <li className="social-list__item">
           <a
             href="https://linkedin.com/in/djdagorne"
             className="social-list__link"
             title="to Dexter's LinkedIn"
-          ><i className="fab fa-linkedin"></i></a>
+          ><i className="fab fa-linkedin" aria-hidden></i></a>
         </li>
       </ul>
     </footer>

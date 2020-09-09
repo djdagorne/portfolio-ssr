@@ -1,29 +1,29 @@
 const Concertfinder = () => {
   return (
     <>
-      <section class="intro-item">
-        <h1 class="section__title section__title--intro">
+      <section className="intro-item">
+        <h1 className="section__title section__title--intro">
         Check out
           <strong>CONCERT<br/>FINDER</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro-item">
+        <p className="section__subtitle section__subtitle--intro-item">
         from a pre-covid era...
         </p>
-        <div class="portfolio-item-individual__item">
+        <div className="portfolio-item-individual__item">
           <img
             src="../concertfinder-capture.png"
             alt="scrolling demo pic"
-            class="portfolio-item-individual__img"
+            className="portfolio-item-individual__img"
           />
         </div>
       </section>
 
-      <div class="portfolio-item-individual__bar">
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-js"></i>
+      <div className="portfolio-item-individual__bar">
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-css3-alt"></i>
+        <i className="fab fa-js"></i>
       </div>
-      <div class="portfolio-item-individual">
+      <div className="portfolio-item-individual">
         <p>
         A concert lookup web application, using
           <strong> Last.fm Tastemaker and Ticketmasters Eventfinder APIs, jQuery,
@@ -35,17 +35,17 @@ const Concertfinder = () => {
         <img
           src="../concertfinder-capture-lg.png"
           alt="larger screen capture"
-          class="portfolio-item-individual__img-lg"
+          className="portfolio-item-individual__img-lg"
         />
-        <div class="btn-holder">
+        <div className="btn-holder">
           <a
             href="https://djdagorne.github.io/bootstrap-playground/"
-            class="btn btn-sm"
+            className="btn btn-sm"
           >Live Demo</a
           >
           <a
             href="https://github.com/djdagorne/bootstrap-playground"
-            class="btn btn-sm"
+            className="btn btn-sm"
           >Github Repo</a
           >
         </div>

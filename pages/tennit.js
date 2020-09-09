@@ -1,32 +1,32 @@
 const Tennit = () => {
   return (
     <>
-      <section class="intro-item">
-        <h1 class="section__title section__title--intro">
+      <section className="intro-item">
+        <h1 className="section__title section__title--intro">
         Check out <strong>Tennit</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro-item">
+        <p className="section__subtitle section__subtitle--intro-item">
         true love<br/>
         & cheap rent
         </p>
-        <div class="portfolio-item-individual__item">
+        <div className="portfolio-item-individual__item">
           <img
             src="../tennit-capture.png"
             alt="scrolling screen capture"
-            class="portfolio-item-individual__img"
+            className="portfolio-item-individual__img"
           />
         </div>
       </section>
 
-      <div class="portfolio-item-individual__bar">
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-js"></i>
-        <i class="fab fa-react"></i>
-        <i class="fas fa-database"></i>
-        <i class="fas fa-server"></i>
+      <div className="portfolio-item-individual__bar">
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-css3-alt"></i>
+        <i className="fab fa-js"></i>
+        <i className="fab fa-react"></i>
+        <i className="fas fa-database"></i>
+        <i className="fas fa-server"></i>
       </div>
-      <div class="portfolio-item-individual">
+      <div className="portfolio-item-individual">
         <p>
         Tennit is a full stack ReactJS app made with vanilla CSS, Express/NodeJS
         Server and PostgreSQL database. Included in the full stack app is
@@ -45,16 +45,16 @@ const Tennit = () => {
         <img
           src="../tennit-capture-lg.png"
           alt="larger screen capture"
-          class="portfolio-item-individual__img-lg"
+          className="portfolio-item-individual__img-lg"
         />
-        <div class="btn-holder">
-          <a href="https://tennit.djdagorne.now.sh/" class="btn btn-sm"
+        <div className="btn-holder">
+          <a href="https://tennit.djdagorne.now.sh/" className="btn btn-sm"
           >Live Demo</a
           >
-          <a href="https://github.com/djdagorne/tennit-client" class="btn btn-sm"
+          <a href="https://github.com/djdagorne/tennit-client" className="btn btn-sm"
           >Client Repo</a
           >
-          <a href="https://github.com/djdagorne/tennit-server" class="btn btn-sm"
+          <a href="https://github.com/djdagorne/tennit-server" className="btn btn-sm"
           >Server Repo</a
           >
         </div>
